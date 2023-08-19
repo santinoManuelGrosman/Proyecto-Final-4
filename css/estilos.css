@@ -1,0 +1,25 @@
+.heromani {
+  color: #001aff; }
+
+.heromani {
+  -webkit-text-stroke: 0.2px red; }
+
+nav {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px; }
+
+ul li a {
+  color: #fff; }
+
+ul li a:hover {
+  background: #ff0000;
+  color: #fff; }
+
+@media (max-width: 664px) {
+  nav {
+    padding: 20px; } }
+
+@media (max-width: 768px) {
+  nav {
+    padding: 20px 10px; } }

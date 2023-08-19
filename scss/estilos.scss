@@ -1,0 +1,45 @@
+.heromani {
+color: #001aff;}
+.heromani {
+    -webkit-text-stroke: 0.2px rgb(255, 0, 0);
+}
+
+$color-primario: #007bff;
+$color-texto: #fff;
+$color-hover: #ff0000;
+
+$espaciado: 10px;
+$espaciado-header: 20px;
+
+nav {
+    padding-top: $espaciado;
+    padding-left: $espaciado;
+    padding-right: $espaciado;
+}
+
+ul li a {
+    color: $color-texto;
+}
+
+ul li a:hover {
+    background: $color-hover;
+    color: $color-texto;
+}
+
+@media (max-width: 664px) {
+    nav {
+        padding: $espaciado-header;
+    }
+}
+
+@media (max-width: 768px) {
+    nav {
+        padding: $espaciado-header $espaciado;
+    }
+}
+
+@mixin centrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
